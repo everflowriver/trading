@@ -469,6 +469,11 @@ body {
     margin-bottom: 10px;
 }
 
+.address-card a {
+    color: #F4D35E;
+    text-decoration: none;
+}
+
 /* --- CONTACT GRID --- */
 .contact-grid {
     display: grid;
