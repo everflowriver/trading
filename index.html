@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>EVER FLOW RIVER TRADING CO., LTD.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="/images/comlogo.png" type="image/x-icon">
+
+    <!-- Bootstrap 5 -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.min.css">
+
+    <!-- AOS (scroll animation) -->
+    <link href="assets/aos/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/efr.css" />
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark efr-navbar fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="images/efr-logo.jpg" alt="EFR Logo" class="me-2 efr-logo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <!-- About dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#about">Who We Are</a></li>
+                            <li><a class="dropdown-item" href="#vision">Vision & Mission</a></li>
+                            <li><a class="dropdown-item" href="#references">Awards & Memberships</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Products dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#import-products">Import Products</a></li>
+                            <li><a class="dropdown-item" href="#export-products">Export Products</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Services dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-efr-gold btn-sm" href="#contact">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- spacer for fixed nav -->
+    <div id="home" class="efr-nav-spacer"></div>
+
+    <!-- ================= HERO SLIDER ================= -->
+    <section class="efr-hero">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active efr-hero-slide efr-hero-slide-1">
+                    <div class="container h-100 d-flex align-items-center">
+                        <div data-aos="fade-right">
+                            <h1 class="display-5 fw-bold">Ever Flow River Trading Co., Ltd.</h1>
+                            <p class="lead">
+                                Leading agricultural trading & 5th party logistics provider from Myanmar to the world.
+                            </p>
+                            <a href="#products" class="btn btn-efr-gold me-2">Our Products</a>
+                            <a href="#logistics" class="btn btn-outline-light">Our Logistics</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item efr-hero-slide efr-hero-slide-2">
+                    <div class="container h-100 d-flex align-items-center">
+                        <div data-aos="fade-up">
+                            <h1 class="display-5 fw-bold">5PL Supply Chain Solutions</h1>
+                            <p class="lead">
+                                Integrated trading + logistics model tailored for global partners.
+                            </p>
+                            <a href="#services" class="btn btn-efr-gold">Explore Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item efr-hero-slide efr-hero-slide-3">
+                    <div class="container h-100 d-flex align-items-center">
+                        <div data-aos="fade-left">
+                            <h1 class="display-5 fw-bold">Rubber, Mango, Beans & Pulses</h1>
+                            <p class="lead">
+                                From Myanmar farms to international markets with quality and traceability.
+                            </p>
+                            <a href="#export-products" class="btn btn-efr-gold">View Export Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WHO WE ARE ================= -->
+    <section id="about" class="py-5 efr-section">
+        <div class="container mb-3">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="efr-section-title">Who We Are</h2>
+                    <p>
+                        EVER FLOW RIVER TRADING CO., LTD. was established in 1998 as the first company under
+                        EFR Group. The company focuses on international trading of agricultural products and
+                        provides 5th Party Logistics services for global clients.
+                    </p>
+                    <p>
+                        We act as a trusted trading house and strategic logistics partner—connecting Myanmar
+                        producers with overseas buyers through integrated solutions.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="efr-stat-card">
+                                <span class="efr-stat-number">1998</span>
+                                <span class="efr-stat-label">Founded</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="efr-stat-card">
+                                <span class="efr-stat-number">25+</span>
+                                <span class="efr-stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="efr-stat-card">
+                                <span class="efr-stat-number">5+</span>
+                                <span class="efr-stat-label">Key Products</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="efr-stat-card">
+                                <span class="efr-stat-number">Global</span>
+                                <span class="efr-stat-label">Trading Network</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="row g-3">
+                        <div class="img-box mt-3">
+                            <img src="/images/bussiness_scope.png" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+
+                    <h2 class="efr-section-title">BUSINESS SCOPE</h2>
+                    <p>
+                        As EFR Group expertise is for logistics & supply chain services, EFR Trading primarily focused
+                        to offer Trade House services to customers as value added service to our Logistics services. We
+                        have started to provide end to end logistics solutions including the trade formality
+                        transactions such as T/T and L/C arrangements. It covers stock handling, reporting, pick up &
+                        delivery as well as cash collection & remittance matters.
+                        <br><br>
+                        Later on, as demand from the market and new opportunities emerged, we started our own trading
+                        activities relating to the agriculture sector in Myanmar.
+
+                    </p>
+                    <p>
+                        EFR Trading is offering services to the renowned customers in Myanmar. The company ensures to
+                        sustain and develop more business based on our strong cooperation with local customers and
+                        oversea partner companies.
+                        <br><br>
+                        EFR Trading is setting up the regional branch offices in Myanmar and focus on national
+                        collection/distribution and e-commerce activities to fully serve a the 5th Party Logistics
+                        Services in Myanmar.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= VISION & MISSION ================= -->
+    <section id="vision" class="py-5 efr-section-alt">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h2 class="efr-section-title">Our Vision</h2>
+                    <p>
+                        To be a powerful trading company locally and globally, growing day by day with our
+                        partners and customers.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                    <h2 class="efr-section-title">Our Mission</h2>
+                    <p>
+                        To provide full turnkey services and high-quality products through innovation, creativity
+                        and continuous improvement—measured by customer trust and preference.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRODUCTS ================= -->
+    <section id="products" class="py-5 efr-section">
+        <h2 class="efr-section-title text-center mb-4" data-aos="fade-up">Our Products</h2>
+
+        <h2 class="section-title" id="import-products">IMPORT PRODUCTS</h2>
+
+        <!-- Import -->
+        <section class="product-detail">
+            <div class="text-box">
+                <h3>RUBBER ROLLER</h3>
+
+                <ul class="spec">
+                    <li><strong>Brand Name:</strong> E.F.R</li>
+                    <li><strong>Type of Product:</strong> Rubber Roller</li>
+                    <li><strong>Usage:</strong> For Rice Mills</li>
+                    <li><strong>Origin:</strong> Vietnam</li>
+                    <li><strong>Product size:</strong> 10” Rubber Roller <br>
+                        14” Rubber Roller <br>
+                        20” Rubber Roller</li>
+                    <li>EFR Rubber Roller is the established brand in Myanmar market since 2006.</li>
+                    <li>Start from 2013, EFRT is importing & distributing of Rubber Rolls produced from OEM factory in
+                        Vietnam.</li>
+                    <li>EFR Rubber Rollers are particularly used in Rice Mills to take off the rice hulls.</li>
+                    <li>Local Sales area covers to Yangon, Ayawaddy & Mandalay Regions.</li>
+                </ul>
+            </div>
+
+            <div class="img-box">
+                <img src="images/rr-import-image-1.jpg">
+                <img src="images/rr-import-image-2.jpg" class="small">
+            </div>
+        </section>
+
+        <!-- Export -->
+        <section class="product-category">
+            <h2 class="section-title" id="export-products">EXPORT PRODUCTS</h2>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/rss-1.jpg" alt="">
+                    <h3>Ribbed Smoked Sheet (RSS-1)</h3>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/rss-3.jpg" alt="">
+                    <h3>Ribbed Smoked Sheet (RSS-3)</h3>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/msr-20.png" alt="">
+                    <h3>Myanmar Standard Rubber (MSR-20)</h3>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/fresh_mango.jpg" alt="">
+                    <h3>Fresh Mango (Sein Ta Lone)</h3>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/beans_pulses.jpg" alt="">
+                    <h3>BEANS & PULSES</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-detail">
+            <div class="text-box">
+                <h3>RIBBED SMOKED SHEET (RSS-1)</h3>
+
+                <ul class="spec">
+                    <li><strong>Type of Product:</strong> Natural Rubber (Myanmar RSS-1)</li>
+                    <li><strong>Origin:</strong> Myanmar</li>
+                    <li><strong>HS CODE:</strong> 4001211000</li>
+                    <li><strong>Packing:</strong> Loose bales packed in plastic</li>
+                    <li><strong>Packing Weight:</strong> 35 Kg (77 Lb)</li>
+                    <li><strong>Minimum Order:</strong> 100 MT</li>
+                    <li>Ribbed Smoked Sheets (RSS) is coagulated from high quality natural rubber latex.</li>
+                    <li>Rubber latex processed into sheets, dried, smoked, and visually graded</li>
+                    <li>RSS1 rubber sheets are used in the production of tires, Tread Carcass, Off Road Tires & ADV
+                        tires, Extruded hoses, and Footwear etc.</li>
+                </ul>
+            </div>
+
+            <div class="img-box">
+                <img src="images/rss-1-image-1.jpg">
+                <img src="images/rss-1-image-2.png" class="small">
+            </div>
+        </section>
+
+        <section class="product-detail">
+            <div class="img-box">
+                <img src="images/rss-3-image-1.jpg">
+                <img src="images/rss-3-image-2.jpg" class="small">
+            </div>
+
+            <div class="text-box">
+                <h3>RIBBED SMOKED SHEET (RSS-3)</h3>
+
+                <ul class="spec">
+                    <li><strong>Type of Product:</strong> Natural Rubber (Myanmar RSS-3)</li>
+                    <li><strong>Origin:</strong> Myanmar</li>
+                    <li><strong>HS CODE:</strong> 4001213000</li>
+                    <li><strong>Packing:</strong> Loose bales</li>
+                    <li><strong>Packing Weight:</strong> 50 Kg (110 Lb)</li>
+                    <li><strong>Minimum Order:</strong> 100 MT</li>
+                    <li>EFR mobile team is present in Bago, Mon, Kayin & Taninthayi regions to source/buy/collect the
+                        products from Myanmar market.</li>
+                    <li>The products are being exported from Myanmar to International market by Sea and Border Trade.
+                    </li>
+                    <li>RSS3 is useful for the Rubber industry sector as one of the raw materials.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="product-detail">
+            <div class="text-box">
+                <h3>MYANMAR STANDARD RUBBER (MSR-20)</h3>
+
+                <ul class="spec">
+                    <li><strong>Type of Product:</strong>Technifically Specified Rubber (Myanmar Standard Rubber)</li>
+                    <li><strong>Origin:</strong> Myanmar</li>
+                    <li><strong>HS CODE:</strong> 4001222000</li>
+                    <li><strong>Packing:</strong> Loose Bales packed in plastic</li>
+                    <li><strong>Packing Weight:</strong> 35 Kg (77 Lb)</li>
+                    <li><strong>Minimum Order:</strong> 100 MT</li>
+                    <li>MSR -20 is the field grade materials based on unsmoked sheet or cuplump or scrap or the mixture
+                        of them.</li>
+                    <li>These are usually packed in block which is wrapped by the law density polyethylene film.</li>
+                    <li>MSR-20 is produced from the associate factory of EFR group located in Mawlamyaing , Mon State.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="img-box">
+                <img src="images/msr-20-image-1.png" class="ref-img">
+                <img src="images/msr-20-image-2.jpg" class="small ref-img">
+            </div>
+        </section>
+
+        <section class="product-detail">
+            <div class="img-box">
+                <img src="images/fresh_mango-1.jpg">
+                <img src="images/fresh_mango-2.jpg" class="small">
+            </div>
+
+            <div class="text-box">
+                <h3>FRESH MANGO</h3>
+
+                <ul class="spec">
+                    <li><strong>Brand name:</strong>EFR Sein Ta Lone Mango</li>
+                    <li><strong>Product:</strong> Tropical & Sub-tropical Fruit</li>
+                    <li><strong>Type:</strong> Mango</li>
+                    <li><strong>Species:</strong> Sein Ta Lone</li>
+                    <li>10-15 Kg Export Quality Box ( Material: Plastic) it can be customized into different packaging
+                        type based on customer’s requirement.</li>
+                    <li>Foam wrap for production during transportation and extend preservation time.</li>
+                    <li>Foam net on every pieces & packed 10-15 kg per basket</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="beans">
+            <h2>Varieties of Beans in Myanmar</h2>
+
+            <div class="bean-gallery">
+
+                <!-- Slide 16 Beans -->
+                <a href="images/black_matpe.jpg" data-lightbox="beans" data-title="Black Matpe">
+                    <img src="images/black_matpe.jpg" alt="Black Matpe">
+                </a>
+
+                <a href="images/toor_whole.jpg" data-lightbox="beans" data-title="Toor Whole">
+                    <img src="images/toor_whole.jpg" alt="Toor Whole">
+                </a>
+
+                <a href="images/green_mung_bean.jpg" data-lightbox="beans" data-title="Green Mung Bean">
+                    <img src="images/green_mung_bean.jpg" alt="Green Mung Bean">
+                </a>
+
+                <a href="images/chick_pea.jpg" data-lightbox="beans" data-title="Chick Pea">
+                    <img src="images/chick_pea.jpg" alt="Chick Pea">
+                </a>
+
+                <a href="images/black-eyed_bean.jpg" data-lightbox="beans" data-title="Black-Eyed Bean">
+                    <img src="images/black-eyed_bean.jpg" alt="Black-Eyed Bean">
+                </a>
+
+                <a href="images/bocate.jpg" data-lightbox="beans" data-title="Bocate">
+                    <img src="images/bocate.jpg" alt="Bocate">
+                </a>
+
+                <a href="images/ground_nut.jpg" data-lightbox="beans" data-title="Ground Nut">
+                    <img src="images/ground_nut.jpg" alt="Ground Nut">
+                </a>
+
+                <a href="images/butter_bean.jpg" data-lightbox="beans" data-title="Butter Bean">
+                    <img src="images/butter_bean.jpg" alt="Butter Bean">
+                </a>
+
+                <a href="images/bamboo_bean.jpg" data-lightbox="beans" data-title="Bamboo Bean">
+                    <img src="images/bamboo_bean.jpg" alt="Bamboo Bean">
+                </a>
+
+                <a href="images/red_kidney_bean.jpg" data-lightbox="beans" data-title="Red Kidney Bean">
+                    <img src="images/red_kidney_bean.jpg" alt="Red Kidney Bean">
+                </a>
+
+                <a href="images/garden_pea.jpg" data-lightbox="beans" data-title="Garden Pea">
+                    <img src="images/garden_pea.jpg" alt="Garden Pea">
+                </a>
+
+                <a href="images/soya_bean.jpg" data-lightbox="beans" data-title="Soya Bean">
+                    <img src="images/soya_bean.jpg" alt="Soya Bean">
+                </a>
+
+
+                <!-- Slide 17 Beans -->
+                <a href="images/lentil.jpg" data-lightbox="beans" data-title="Lentil">
+                    <img src="images/lentil.jpg" alt="Lentil">
+                </a>
+
+                <a href="images/red_bamboo_bean.jpg" data-lightbox="beans" data-title="Red Bamboo Bean">
+                    <img src="images/red_bamboo_bean.jpg" alt="Red Bamboo Bean">
+                </a>
+
+                <a href="images/small_red_bean.jpg" data-lightbox="beans" data-title="Small Red Bean">
+                    <img src="images/small_red_bean.jpg" alt="Small Red Bean">
+                </a>
+
+                <a href="images/red_speckled_bean.jpg" data-lightbox="beans" data-title="Red Speckled Bean">
+                    <img src="images/red_speckled_bean.jpg" alt="Red Speckled Bean">
+                </a>
+
+                <a href="images/lab_lab_bean.jpg" data-lightbox="beans" data-title="Lab Lab Bean">
+                    <img src="images/lab_lab_bean.jpg" alt="Lab Lab Bean">
+                </a>
+
+                <a href="images/lima_bean.jpg" data-lightbox="beans" data-title="Lima Bean">
+                    <img src="images/lima_bean.jpg" alt="Lima Bean">
+                </a>
+
+            </div>
+
+        </section>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="py-5 efr-section-alt">
+        <div class="container">
+            <h2 class="efr-section-title text-center mb-4" data-aos="fade-up">Our Services</h2>
+
+            <div class="row g-4">
+                <div id="logistics" class="col-md-6" data-aos="fade-right">
+                    <div class="efr-card">
+                        <h4>5th Party Logistics (5PL)</h4>
+                        <p>
+                            We design and manage integrated supply-chain models from suppliers to end customers,
+                            combining trading, transportation, warehousing and information flow.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="tradehouse" class="col-md-6" data-aos="fade-left">
+                    <div class="efr-card">
+                        <h4>Trading House Services</h4>
+                        <p>
+                            Value-added trade services including stock handling, documentation,
+                            customs procedures, cash collection and remittance, as an extension of our logistics
+                            business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= REFERENCES ================= -->
+    <section class="references-section" id="references">
+        <h2 class="ref-title" data-aos="fade-up">Our references</h2>
+
+        <div class="ref-grid">
+
+            <div class="ref-item" data-aos="fade-up" data-aos-delay="100">
+                <img src="/images/certificate1.jpg" class="ref-img">
+                <p class="ref-caption">Company Registration</p>
+            </div>
+
+            <div class="ref-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="/images/certificate2.jpeg" class="ref-img">
+                <p class="ref-caption">UMFCCI Membership</p>
+            </div>
+
+            <div class="ref-item" data-aos="fade-up" data-aos-delay="300">
+                <img src="/images/certificate4.jpg" class="ref-img">
+                <p class="ref-caption">
+                    Certificate for being the High Commercial Tax Payer<br>
+                    (2016–17)
+                </p>
+            </div>
+
+            <div class="ref-item" data-aos="fade-up" data-aos-delay="400">
+                <img src="/images/certificate3.jpg" class="ref-img">
+                <p class="ref-caption">
+                    Certificate for being the High Commercial Tax Payer<br>
+                    (2017–18)
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="py-5 efr-section-alt">
+        <h2 class="text-center mb-4" data-aos="fade-up">Our Contact</h2>
+        <div class="contact-section">
+
+            <!-- MAIN ADDRESS CARD -->
+            <div class="address-card">
+                <h3>📍 Main Office Address</h3>
+                <p>
+                    3A, 3rd Floor, EFR Building, No. 941, Corner of Shukhintha Myopat Road
+                    and Myoma 11th Street, North 4th Ward, Thakayta Township, Yangon Region.
+                </p>
+            </div>
+
+            <!-- CONTACT PERSON CARDS -->
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <h4>Ms. Ju Ju</h4>
+                    <p>📞 +959 420111836</p>
+                    <p>✉ <a href="mailto:juju@efrgroupmm.com">juju@efrgroupmm.com</a></p>
+                    <p>✉ <a href="mailto:marketing@efrtrading.com">marketing@efrtrading.com</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Mr. Han Win Aung</h4>
+                    <p>📞 +959 420169982</p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Mrs. Than Than Mon</h4>
+                    <p>📞 +959 259768389</p>
+                    <p>✉ <a href="mailto:monmon@efrtrading.com">monmon@efrtrading.com</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Ms. Zin Thu Aung</h4>
+                    <p>📞 +959 420059421</p>
+                    <p>✉ <a href="mailto:sales@efrtrading.com">sales@efrtrading.com</a></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-4 text-center efr-footer">
+        <div>
+            <strong>EVER FLOW RIVER TRADING CO., LTD.</strong>
+        </div>
+        <div class="footer-links mt-2">
+            <a href="#about" class="mx-2">About Us</a>
+            <a href="#products" class="mx-2">Our Products</a>
+            <a href="#services" class="mx-2">Services</a>
+            <a href="#contact" class="mx-2">Contact</a>
+        </div>
+        <div class="mt-3">
+            <small>© <span id="currentYear"></span> EFR Trading. All rights reserved.</small><br>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="assets/aos/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+            once: true
+        });
+    </script>
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+</body>
+
+</html>
