@@ -348,6 +348,10 @@ body {
     transform: scale(1.1);
 }
 
+.rubber-roller-img {
+    width: 100% !important;
+}
+
 /* RESPONSIVE */
 @media(max-width: 900px) {
     .product-detail {
@@ -360,14 +364,10 @@ body {
         display: inline;
     }
 
-    .img-box img {
+    /* .img-box img {
         display: inline-block;
         margin: 10px;
-    }
-
-    .rubber-roller-img {
-        width: 100% !important;
-    }
+    } */
 }
 
 /* ===========================================
@@ -394,8 +394,8 @@ body {
     }
 
     .product-detail .img-box img {
-        width: 45%;
-        max-width: 380px;
+        width: 100%;
+        max-width: 600px;
         height: auto;
     }
 
@@ -647,7 +647,7 @@ body {
     position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
     top: 0;
     left: 100%;
     margin-left: 0px;
